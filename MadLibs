@@ -1,0 +1,58 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main() {
+	string words[16] = {};
+	
+	cout << "Enter adjective" << endl;
+	cin >> words[0];
+	cout << "Enter verb ending in 'ed'" << endl;
+	cin >> words[1];
+	cout << "Enter plural noun" << endl;
+	cin >> words[2];
+	cout << "Enter liquid" << endl;
+	cin >> words[3];
+	cout << "Enter plural noun" << endl;
+	cin >> words[4];
+	cout << "Enter famous person" << endl;
+	cin >> words[5];
+	cout << "Enter place" << endl;
+	cin >> words[6];
+	cout << "Enter occupation" << endl;
+	cin >> words[7];
+	cout << "Enter noun" << endl;
+	cin >> words[8];
+	cout << "Enter Nationality" << endl;
+	cin >> words[9];
+	cout << "Enter Famous person" << endl;
+	cin >> words[10];
+	cout << "Enter noun" << endl;
+	cin >> words[11];
+	cout << "Enter female name" << endl;
+	cin >> words[12];
+	cout << "Enter plural noun" << endl;
+	cin >> words[13];
+	cout << "Enter number" << endl;
+	cin >> words[14];
+	cout << "Enter adjective" << endl;
+	cin >> words[15];
+	
+	//This isn't as neat as I thought it would be
+	cout << "I enjoy long, " << words[0] << " walks on the beach, getting " 
+	<< words[1] << " in the rain and serendipitous encounters with " << words[2] 
+	<< ". \nI really like piÃ±a coladas mixed with " << words[3] 
+	<< ", and romantic, candle-lit " << words[4] 
+	<< ". I am well-read from Dr. Seuss to " << words[5] 
+	<< ". \nI travel frequently, especially to " << words[6] 
+	<< ", when I am not busy with work. (I am a " << words[7] 
+	<< ".) \nI am looking for " << words[8] 
+	<< " and beauty in the form of a " << words[9] 
+	<< " goddess. She should have the physique of " << words[10] 
+	<< " and the " << words[11] << " of " << words[12] 
+	<< ". \nI would prefer if she knew how to cook, clean, and wash my " << words[13] 
+	<< ". \nI know Iâ€™m not very attractive in my picture, but it was taken " << words[14] 
+	<< " days ago, and I have since become more " << words[15] << ".";
+	return 0;
+}
